@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: planner-deployment
+  labels:
+    app: planner
+spec:
+  selector:
+    matchLabels:
+      app: planner
+      role: web
+  template:
+    metadata:
+      labels:
+        app: planner
+        role: web
+    spec:
+      containers:
+      - image: registry.openculinary.org/reciperadar/planner
+        imagePullPolicy: IfNotPresent
+        name: planner
+        ports:
+        - containerPort: 8000
+        securityContext:
+          privileged: false
+          readOnlyRootFilesystem: true
+        volumeMounts:
+        - mountPath: /tmp
+          name: tmpfs
+      volumes:
+      - name: tmpfs
+        emptyDir: {}
