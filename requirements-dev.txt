@@ -69,9 +69,9 @@ mccabe==0.6.1 \
     --hash=sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42 \
     --hash=sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f \
     # via flake8
-minizinc==0.4.1 \
-    --hash=sha256:07359930dcc451e17c8886a07596ce9c72530ffdcf98eeeb6b3d53661dce71f1 \
-    --hash=sha256:f73d29a6ae05f7629dbf7feb41658b5092a565e8428072ba2dcc1b7bf25c61ee \
+minizinc==0.4.2 \
+    --hash=sha256:c0e5fae557df0b757bbe4dbec70f7b033b2acc0acabea213e3bbcb0b41d8efeb \
+    --hash=sha256:d4327468b7cdc1b1379c6fa50350393d2d0903ac1be55235f534992b4f7b2538 \
     # via -r requirements.txt
 packaging==20.8 \
     --hash=sha256:24e0da08660a87484d1602c30bb4902d74816b6985b93de36926f5bc95741858 \
