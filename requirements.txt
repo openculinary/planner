@@ -2,9 +2,9 @@ click==8.0.3 \
     --hash=sha256:353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3 \
     --hash=sha256:410e932b050f5eed773c4cda94de75971c89cdb3155a72a0831139a79e5ecb5b
     # via flask
-flask==2.0.2 \
-    --hash=sha256:7b2fb8e934ddd50731893bdcdb00fc8c0315916f9fcd50d22c7cc1a95ab634e2 \
-    --hash=sha256:cb90f62f1d8e4dc4621f52106613488b5ba826b2e1e10a33eac92f723093ab6a
+flask==2.0.3 \
+    --hash=sha256:59da8a3170004800a2837844bfa84d49b022550616070f7cb1a659682b2e7c9f \
+    --hash=sha256:e1120c228ca2f553b470df4a5fa927ab66258467526069981b3eb0a91902687d
     # via -r requirements.in
 gunicorn==20.1.0 \
     --hash=sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e \
@@ -89,9 +89,9 @@ markupsafe==2.0.1 \
     --hash=sha256:f9081981fe268bd86831e5c75f7de206ef275defcb82bc70740ae6dc507aee51 \
     --hash=sha256:fa130dd50c57d53368c9d59395cb5526eda596d3ffe36666cd81a44d56e48872
     # via jinja2
-minizinc==0.5.0 \
-    --hash=sha256:678f6cc5894290960aef63df143033912541050c17912bf1fd5d28d814eb3d74 \
-    --hash=sha256:d60580d9c71cb8a8d819f117803f1ab922907367f3d09aaf9e2e0c668ccc38ac
+minizinc==0.6.0 \
+    --hash=sha256:6f17d93329b876777792c5321263edac8993c17db5a96ae92e81220d38fa2731 \
+    --hash=sha256:cc90bd6ed00f04e79b424d1da6d98b4ad0d8a15dd50cbc691008f721050abd0e
     # via -r requirements.in
 werkzeug==2.0.3 \
     --hash=sha256:1421ebfc7648a39a5c58c601b154165d05cf47a3cd0ccb70857cbdacf6c8f2b8 \
